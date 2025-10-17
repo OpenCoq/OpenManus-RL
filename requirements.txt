@@ -22,3 +22,9 @@ packaging>=20.0
 uvicorn
 fastapi
 qwen-vl-utils[decord]
+
+# OpenCog Systems Integration
+# Note: This implementation includes a Python-based OpenCog simulation
+# For full OpenCog functionality, install OpenCog separately:
+# https://github.com/opencog/opencog
+pyyaml>=5.4.0  # For configuration management
